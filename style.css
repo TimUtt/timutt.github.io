@@ -3,15 +3,16 @@ body {
 }
 
 .wrapper {
-    height: 500px;
+    height: 100vh;
     background-image: url("images/IMG_4229.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    opacity: 0.7;
 }
 
 .title {
     box-shadow: 0 0 2em black;
-    margin: auto;
+    margin: 50px auto;
 }
