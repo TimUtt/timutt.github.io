@@ -1,12 +1,17 @@
-.couverture {
-    width: 100%;
+body {
+    margin: 0;
 }
 
 .wrapper {
-    height: 300px;
+    height: 500px;
     background-image: url("images/IMG_4229.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.title {
+    box-shadow: 0 0 2em black;
+    margin: auto;
 }
