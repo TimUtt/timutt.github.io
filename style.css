@@ -9,11 +9,49 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .title {
     box-shadow: 0 0 2em grey;
     border-radius: 5px;
     margin: 50px auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.card {
+    transition: 0.5s;
+    width: 280px;
+    height: 311px;
+}
+
+.card:hover {
+    z-index: 10;
+    box-shadow: 0 0 1em grey;
+}
+
+.floating {
+    margin: 150px auto auto 150px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 1em grey;
+}
+
+#scroll {
+    position: absolute;
+    left: 47%;
+    bottom: 20px;
+    text-align: center;
+}
+
+.carousel-item {
+    width: 400px;
+    height: 400px;
 }

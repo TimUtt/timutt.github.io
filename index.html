@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
     <link type="text/css" rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -8,18 +9,204 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init()</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Timothé Nicole</title>
   </head>
   <body>
-    <div class="wrapper"></div>
-    <div class="container-fluid">
-      <div class="title" data-aos="fade-up">
-        <h2>Timothé Nicole</h2>
-        <h4>Looking for an internship in Information Security</h4>
+    <div class="wrapper">
+      <div class="floating">
+        <h1>Timothé Nicole</h1>
+        <h5>Looking for an internship in IT security</h5>
+        <br />
+        <p>phone : +33 7 67 92 87 78</p>
+        <p>mail : timothe.nicole@utt.fr</p>
+      </div>
+
+      <img id="scroll" src="images/scroll.png" style="width: 40px" />
+    </div>
+    <div class="container-fluid" style="padding: 100px">
+      <div class="alert alert-secondary" role="alert">
+        The Internship should start around early September 2022 for 24 to 26
+        weeks
+      </div>
+      <div style="margin-top: 100px"></div>
+      <div class="content" data-aos="fade-right">
+        <h2>Education</h2>
+        <div class="flex">
+          <div class="card">
+            <img class="card-img-top" src="images/utt.png" alt="utt" />
+            <div class="card-body">
+              <h5 class="card-title">Master's degree in Computer Science</h5>
+              <h6 class="card-subtitle text-muted mb-2">2023</h6>
+              <p class="card-text">
+                Algorithmic, Database structure, Cybersecurity, Project
+                management, ... <br />Minor in economics
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/utt.png" alt="utt" />
+            <div class="card-body">
+              <h5 class="card-title">Master in Security and Risk Management</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                sept 2021 - fev 2022
+              </h6>
+              <p class="card-text">
+                Security techniques, Legal rights, Cyber investigation, ...
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card/img/top" src="images/utseus.png" alt="utseus" />
+            <div class="card-body">
+              <h5 class="card-title">Study abroad Semester</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                fev 2019 - july 2019
+              </h6>
+              <p class="card-text">
+                Operational research, Quality, Innovation Bootcamp
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/bac.jpeg"
+              alt="bac"
+              style="height: 105px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">High School Diploma</h5>
+              <h6 class="card-subtitle text-muted mb-2">2017</h6>
+              <p class="card-text">Option Science, high honours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 100px"></div>
+      <div class="content" data-aos="fade-right">
+        <h2>Work experience</h2>
+        <div class="flex">
+          <div class="card">
+            <img class="card-img-top" src="images/wannath.jpeg" alt="wannath" />
+            <div class="card-body">
+              <h5 class="card-title">Intern - Cyber Threat Intelligence</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                Wannath - fev 2021 - july 2021
+              </h6>
+              <p class="card-text">
+                Development of a CTI tool in Python <br />
+                Watch of the cyber environment
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/logo.svg"
+              alt="utt"
+              style="height: 105px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Developer</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                Barty - july 2020 - now
+              </h6>
+              <p class="card-text">
+                Development of a Web Application in ReactJS using Firebase
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card/img/top"
+              src="images/dpd.jpeg"
+              alt="dpd"
+              style="height: 105px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Handler</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                DPD - jan 2019 - fev 2019
+              </h6>
+              <p class="card-text">Truck filling, order picking</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/eaudevalence.jpeg"
+              alt="bac"
+              style="height: 105px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Intern</h5>
+              <h6 class="card-subtitle text-muted mb-2">
+                Eau De Valence - july 2018
+              </h6>
+              <p class="card-text">Support as an operating agent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+        style="background-color: aqua"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+              <p>bonjour</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <p>bonjourqodrf</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+              <p>bonaejkrfnjour</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      var myCarousel = document.querySelector("#carouselExampleControls");
+      var carousel = new bootstrap.Carousel(myCarousel);
+    </script>
   </body>
 </html>
